@@ -76,18 +76,18 @@ vkF0::BS
 ; --- コンボキーの定義 (無変換/変換/右クリックとの組み合わせ) ---
 ; 1. テンキー入力 (x, c, v, s, d, f, w, e, r, z, a, q)
 #HotIf IS_LAYER1
-x:: Send "{Blind}1"
-c:: Send "{Blind}2"
-v:: Send "{Blind}3"
-s:: Send "{Blind}4"
-d:: Send "{Blind}5"
-f:: Send "{Blind}6"
-w:: Send "{Blind}7"
-e:: Send "{Blind}8"
-r:: Send "{Blind}9"
-z:: Send "{Blind}0"
-a:: Send "{Blind}."
-q:: Send "{Blind},"
+*x:: Send "{Blind}1"
+*c:: Send "{Blind}2"
+*v:: Send "{Blind}3"
+*s:: Send "{Blind}4"
+*d:: Send "{Blind}5"
+*f:: Send "{Blind}6"
+*w:: Send "{Blind}7"
+*e:: Send "{Blind}8"
+*r:: Send "{Blind}9"
+*z:: Send "{Blind}0"
+*a:: Send "{Blind}."
+*q:: Send "{Blind},"
 
 ; 2. Enter (Tabキーとの組み合わせ)
 Tab:: Send "{Blind}{Enter}"
@@ -98,11 +98,11 @@ vkF0:: Send "{Blind}{Delete}"
 
 ; 4. カーソルキー・HOME・END・APP (無変換 or 変換との組み合わせ)
 #HotIf IS_LAYER2
-i:: Send "{Blind}{Up}"
-k:: Send "{Blind}{Down}"
-j:: Send "{Blind}{Left}"
-l:: Send "{Blind}{Right}"
-m:: Send "{Blind}{Home}"
-,:: Send "{Blind}{AppsKey}"
-.:: Send "{Blind}{End}"
+*i:: Send "{Blind}{Up}"
+*k:: Send "{Blind}{Down}"
+*j:: Send "{Blind}{Left}"
+*l:: Send "{Blind}{Right}"
+*m:: Send "{Blind}{Home}"
+*,:: Send "{Blind}{AppsKey}"
+*.:: Send "{Blind}{End}"
 #HotIf
